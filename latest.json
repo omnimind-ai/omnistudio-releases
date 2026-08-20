@@ -2,124 +2,144 @@
   "schemaVersion": 1,
   "product": "OmniStudio",
   "channel": "stable",
-  "version": "0.3.0",
-  "tag": "v0.3.0",
+  "version": "0.3.1",
+  "tag": "v0.3.1",
   "sourceRelease": {
-    "version": "0.3.0",
-    "tag": "v0.3.0",
-    "url": "https://github.com/omnimind-ai/OmniStudio/releases/tag/v0.3.0",
-    "publishedAt": "2026-08-19T07:46:38Z",
-    "targetCommitish": "de8a0e850a48035a4da41dc64606571efbd7aa94"
+    "version": "0.3.1",
+    "tag": "v0.3.1",
+    "url": "https://github.com/omnimind-ai/OmniStudio/releases/tag/v0.3.1",
+    "publishedAt": "2026-08-20T09:41:09Z",
+    "targetCommitish": "b5d2d74ca9edb5d66d570a2b5add05c3573507cb"
   },
   "platforms": {
     "windows": {
+      "version": "0.3.1",
+      "tag": "v0.3.1",
+      "filename": "OmniStudio_0.3.1_x64-setup.exe",
+      "url": "https://studio.omnimind.com.cn/OmniStudio_0.3.1_x64-setup.exe",
+      "mirrors": [
+        {
+          "provider": "github",
+          "url": "https://github.com/omnimind-ai/omnistudio-releases/releases/download/v0.3.1/OmniStudio_0.3.1_x64-setup.exe"
+        }
+      ],
+      "sha256": "d6be4d567715375ff689cfa3ef26e9e06d52dee1acb3bc0b29102dbe03e41594",
+      "size": 18472747,
+      "sizeBytes": 18472747,
+      "publishedAt": "2026-08-20T09:46:57.900Z",
+      "fallback": {
+        "version": "0.3.0",
+        "tag": "v0.3.0",
+        "filename": "OmniStudio_0.3.0_x64-setup.exe",
+        "url": "https://studio.omnimind.com.cn/OmniStudio_0.3.0_x64-setup.exe",
+        "sha256": "0e5c54f5f836bdd611423113301f204d7b35ee040c1be92a0397fc4af8e897b8",
+        "size": 8222436,
+        "sizeBytes": 8222436,
+        "publishedAt": "2026-08-19T08:30:45.607Z",
+        "mirrors": [
+          {
+            "provider": "github",
+            "url": "https://github.com/omnimind-ai/omnistudio-releases/releases/download/v0.3.0/OmniStudio_0.3.0_x64-setup.exe"
+          }
+        ]
+      }
+    },
+    "macos": {
+      "version": "0.3.1",
+      "tag": "v0.3.1",
+      "filename": "OmniStudio_0.3.1_aarch64.dmg",
+      "url": "https://studio.omnimind.com.cn/OmniStudio_0.3.1_aarch64.dmg",
+      "mirrors": [
+        {
+          "provider": "github",
+          "url": "https://github.com/omnimind-ai/omnistudio-releases/releases/download/v0.3.1/OmniStudio_0.3.1_aarch64.dmg"
+        }
+      ],
+      "sha256": "12b40f3251ce5d14f4ed43233ceb68fbe34fdb71cc7378fa249c472787bf3500",
+      "size": 22791601,
+      "sizeBytes": 22791601,
+      "publishedAt": "2026-08-20T09:46:58.030Z",
+      "fallback": {
+        "version": "0.3.0",
+        "tag": "v0.3.0",
+        "filename": "OmniStudio_0.3.0_aarch64.dmg",
+        "url": "https://studio.omnimind.com.cn/OmniStudio_0.3.0_aarch64.dmg",
+        "sha256": "8fa95a55e576d37beb6e186297bbf12344844e0ba678f1b33a5b0b837e12e48d",
+        "size": 11564875,
+        "sizeBytes": 11564875,
+        "publishedAt": "2026-08-19T08:30:46.004Z",
+        "mirrors": [
+          {
+            "provider": "github",
+            "url": "https://github.com/omnimind-ai/omnistudio-releases/releases/download/v0.3.0/OmniStudio_0.3.0_aarch64.dmg"
+          }
+        ]
+      }
+    }
+  },
+  "windows": {
+    "version": "0.3.1",
+    "tag": "v0.3.1",
+    "filename": "OmniStudio_0.3.1_x64-setup.exe",
+    "url": "https://studio.omnimind.com.cn/OmniStudio_0.3.1_x64-setup.exe",
+    "mirrors": [
+      {
+        "provider": "github",
+        "url": "https://github.com/omnimind-ai/omnistudio-releases/releases/download/v0.3.1/OmniStudio_0.3.1_x64-setup.exe"
+      }
+    ],
+    "sha256": "d6be4d567715375ff689cfa3ef26e9e06d52dee1acb3bc0b29102dbe03e41594",
+    "size": 18472747,
+    "sizeBytes": 18472747,
+    "publishedAt": "2026-08-20T09:46:57.900Z",
+    "fallback": {
       "version": "0.3.0",
       "tag": "v0.3.0",
       "filename": "OmniStudio_0.3.0_x64-setup.exe",
       "url": "https://studio.omnimind.com.cn/OmniStudio_0.3.0_x64-setup.exe",
+      "sha256": "0e5c54f5f836bdd611423113301f204d7b35ee040c1be92a0397fc4af8e897b8",
+      "size": 8222436,
+      "sizeBytes": 8222436,
+      "publishedAt": "2026-08-19T08:30:45.607Z",
       "mirrors": [
         {
           "provider": "github",
           "url": "https://github.com/omnimind-ai/omnistudio-releases/releases/download/v0.3.0/OmniStudio_0.3.0_x64-setup.exe"
         }
-      ],
-      "sha256": "0e5c54f5f836bdd611423113301f204d7b35ee040c1be92a0397fc4af8e897b8",
-      "size": 8222436,
-      "sizeBytes": 8222436,
-      "publishedAt": "2026-08-19T08:30:45.607Z",
-      "fallback": {
-        "version": "0.2.3",
-        "tag": "v0.2.3",
-        "filename": "OmniStudio_0.2.3_x64-setup.exe",
-        "url": "https://studio.omnimind.com.cn/OmniStudio_0.2.3_x64-setup.exe",
-        "sha256": "1180e7310be0ed79fe4183089713d359920d7d588045d705846b55266493ab01",
-        "size": 7910163,
-        "sizeBytes": 7910163,
-        "publishedAt": "2026-07-23T16:10:27.308Z",
-        "mirrors": []
+      ]
+    }
+  },
+  "macos": {
+    "version": "0.3.1",
+    "tag": "v0.3.1",
+    "filename": "OmniStudio_0.3.1_aarch64.dmg",
+    "url": "https://studio.omnimind.com.cn/OmniStudio_0.3.1_aarch64.dmg",
+    "mirrors": [
+      {
+        "provider": "github",
+        "url": "https://github.com/omnimind-ai/omnistudio-releases/releases/download/v0.3.1/OmniStudio_0.3.1_aarch64.dmg"
       }
-    },
-    "macos": {
+    ],
+    "sha256": "12b40f3251ce5d14f4ed43233ceb68fbe34fdb71cc7378fa249c472787bf3500",
+    "size": 22791601,
+    "sizeBytes": 22791601,
+    "publishedAt": "2026-08-20T09:46:58.030Z",
+    "fallback": {
       "version": "0.3.0",
       "tag": "v0.3.0",
       "filename": "OmniStudio_0.3.0_aarch64.dmg",
       "url": "https://studio.omnimind.com.cn/OmniStudio_0.3.0_aarch64.dmg",
+      "sha256": "8fa95a55e576d37beb6e186297bbf12344844e0ba678f1b33a5b0b837e12e48d",
+      "size": 11564875,
+      "sizeBytes": 11564875,
+      "publishedAt": "2026-08-19T08:30:46.004Z",
       "mirrors": [
         {
           "provider": "github",
           "url": "https://github.com/omnimind-ai/omnistudio-releases/releases/download/v0.3.0/OmniStudio_0.3.0_aarch64.dmg"
         }
-      ],
-      "sha256": "8fa95a55e576d37beb6e186297bbf12344844e0ba678f1b33a5b0b837e12e48d",
-      "size": 11564875,
-      "sizeBytes": 11564875,
-      "publishedAt": "2026-08-19T08:30:46.004Z",
-      "fallback": {
-        "version": "0.2.3",
-        "tag": "v0.2.3",
-        "filename": "OmniStudio_0.2.3_aarch64.dmg",
-        "url": "https://studio.omnimind.com.cn/OmniStudio_0.2.3_aarch64.dmg",
-        "sha256": "b23d303a1bb0d66ef1729beaec9c5d884abfea2e4963727b6d24f9da106b9bbb",
-        "size": 11104374,
-        "sizeBytes": 11104374,
-        "publishedAt": "2026-07-23T15:25:53.879Z",
-        "mirrors": []
-      }
+      ]
     }
   },
-  "windows": {
-    "version": "0.3.0",
-    "tag": "v0.3.0",
-    "filename": "OmniStudio_0.3.0_x64-setup.exe",
-    "url": "https://studio.omnimind.com.cn/OmniStudio_0.3.0_x64-setup.exe",
-    "mirrors": [
-      {
-        "provider": "github",
-        "url": "https://github.com/omnimind-ai/omnistudio-releases/releases/download/v0.3.0/OmniStudio_0.3.0_x64-setup.exe"
-      }
-    ],
-    "sha256": "0e5c54f5f836bdd611423113301f204d7b35ee040c1be92a0397fc4af8e897b8",
-    "size": 8222436,
-    "sizeBytes": 8222436,
-    "publishedAt": "2026-08-19T08:30:45.607Z",
-    "fallback": {
-      "version": "0.2.3",
-      "tag": "v0.2.3",
-      "filename": "OmniStudio_0.2.3_x64-setup.exe",
-      "url": "https://studio.omnimind.com.cn/OmniStudio_0.2.3_x64-setup.exe",
-      "sha256": "1180e7310be0ed79fe4183089713d359920d7d588045d705846b55266493ab01",
-      "size": 7910163,
-      "sizeBytes": 7910163,
-      "publishedAt": "2026-07-23T16:10:27.308Z",
-      "mirrors": []
-    }
-  },
-  "macos": {
-    "version": "0.3.0",
-    "tag": "v0.3.0",
-    "filename": "OmniStudio_0.3.0_aarch64.dmg",
-    "url": "https://studio.omnimind.com.cn/OmniStudio_0.3.0_aarch64.dmg",
-    "mirrors": [
-      {
-        "provider": "github",
-        "url": "https://github.com/omnimind-ai/omnistudio-releases/releases/download/v0.3.0/OmniStudio_0.3.0_aarch64.dmg"
-      }
-    ],
-    "sha256": "8fa95a55e576d37beb6e186297bbf12344844e0ba678f1b33a5b0b837e12e48d",
-    "size": 11564875,
-    "sizeBytes": 11564875,
-    "publishedAt": "2026-08-19T08:30:46.004Z",
-    "fallback": {
-      "version": "0.2.3",
-      "tag": "v0.2.3",
-      "filename": "OmniStudio_0.2.3_aarch64.dmg",
-      "url": "https://studio.omnimind.com.cn/OmniStudio_0.2.3_aarch64.dmg",
-      "sha256": "b23d303a1bb0d66ef1729beaec9c5d884abfea2e4963727b6d24f9da106b9bbb",
-      "size": 11104374,
-      "sizeBytes": 11104374,
-      "publishedAt": "2026-07-23T15:25:53.879Z",
-      "mirrors": []
-    }
-  },
-  "updatedAt": "2026-08-19T08:30:46.341Z"
+  "updatedAt": "2026-08-20T09:46:58.116Z"
 }
