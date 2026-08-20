@@ -26,7 +26,7 @@
       "sha256": "d6be4d567715375ff689cfa3ef26e9e06d52dee1acb3bc0b29102dbe03e41594",
       "size": 18472747,
       "sizeBytes": 18472747,
-      "publishedAt": "2026-08-20T09:46:57.900Z",
+      "publishedAt": "2026-08-20T09:52:19.891Z",
       "fallback": {
         "version": "0.3.0",
         "tag": "v0.3.0",
@@ -58,7 +58,7 @@
       "sha256": "12b40f3251ce5d14f4ed43233ceb68fbe34fdb71cc7378fa249c472787bf3500",
       "size": 22791601,
       "sizeBytes": 22791601,
-      "publishedAt": "2026-08-20T09:46:58.030Z",
+      "publishedAt": "2026-08-20T09:52:19.970Z",
       "fallback": {
         "version": "0.3.0",
         "tag": "v0.3.0",
@@ -91,7 +91,7 @@
     "sha256": "d6be4d567715375ff689cfa3ef26e9e06d52dee1acb3bc0b29102dbe03e41594",
     "size": 18472747,
     "sizeBytes": 18472747,
-    "publishedAt": "2026-08-20T09:46:57.900Z",
+    "publishedAt": "2026-08-20T09:52:19.891Z",
     "fallback": {
       "version": "0.3.0",
       "tag": "v0.3.0",
@@ -123,7 +123,7 @@
     "sha256": "12b40f3251ce5d14f4ed43233ceb68fbe34fdb71cc7378fa249c472787bf3500",
     "size": 22791601,
     "sizeBytes": 22791601,
-    "publishedAt": "2026-08-20T09:46:58.030Z",
+    "publishedAt": "2026-08-20T09:52:19.970Z",
     "fallback": {
       "version": "0.3.0",
       "tag": "v0.3.0",
@@ -141,5 +141,5 @@
       ]
     }
   },
-  "updatedAt": "2026-08-20T09:46:58.116Z"
+  "updatedAt": "2026-08-20T09:52:19.970Z"
 }
